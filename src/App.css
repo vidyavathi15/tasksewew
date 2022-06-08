@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+.date-feilds{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+  width:40%;
 }
+.app-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  padding:20px;
 }
+.form-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  padding:20px;
+  width:90%;
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+th{
+  border:1px solid black;
+}
+td{
+  border:1px solid black;
+  text-align:center;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+}
+.detials-container{
+  width:30%;
+}
+.label-and-input-container{
+  display:flex;
+  flex-direction:column;
+}
+.input-field{
+  padding-left:8px;
+  height:23px;
+  margin-bottom:10px;
+  
+
+}
+.task-description{
+  margin-bottom:10px;
+  
+}
+.save-btn{
+  border:none;
+  cursor:pointer;
+  outline:none;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:red;
+  color:white;
+  font-size:15px;
+  font-family: "Roboto";
+  font-weight:600;
+  border-radius: 5px;
+  margin-top:30px;
+}
+table{
+  border:1px solid black;
+  border-collapse: collapse;
+}
+tr{
+  border-bottom:1px solid black;
+}
+.field-container{
   display: flex;
   flex-direction: column;
+}
+.status-container{
+ 
+  margin-bottom:20px;
+}
+.task-status{
+  
+  color:black;
+  font-weight:800;
+  font-family:"Roboto";
+}
+.raio-btn{
+  margin-right:10px;
+}
+.name{
+  color:blue;
+  font-size:22px;
+  font-family: "Roboto";
+  font-weight:800;
+  margin-bottom:10px;
+}
+.radio-btn-container{
+  display:flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top:10px;
+  justify-content:space-around;
 }
